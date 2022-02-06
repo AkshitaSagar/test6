@@ -1,0 +1,142 @@
+body{
+    background-image: url('https://thumbs.dreamstime.com/b/fashion-shopping-icons-seamless-vector-background-pattern-design-illustration-silhouette-accessories-52483451.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(119, 96, 175);
+   
+    border: 1px solid ;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px 15px;
+
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background:rgb(234, 241, 13);
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:rgb(234, 241, 13) ;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(234, 241, 13);
+    height: 50px;
+    margin-left: 260px;
+    width: 650px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+h4{
+    text-align: justify;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    font-style: italic;
+    font-display: bold;
+    color: darkblue;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h4:hover{
+    background-color: rgb(228, 173, 222);
+}
+h1{
+    
+    margin: 30px;
+    padding-left: 50px;
+    font-style: italic;
+    background-color: rgb(234, 241, 13);
+    width: 260px;
+    margin-left: 250px;
+    
+    
+}
+.th{
+    border: 2px solid black;
+    text-align: center;
+    background-color: #eaa09c;
+    border-radius: 25px;
+    padding: 20px;
+}
+th:hover{
+    font-size: larger;
+}
+#load{
+   
+    
+    text-decoration: none;
+    background-color: rgb(186, 177, 211);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 50px;
+   margin-left: 400px;
+   border-radius: 25px;
+   border: 2px solid black;
+   color: black;
+
+}
+#load:hover{
+    font-size: larger;
+    font-style: italic;
+}
